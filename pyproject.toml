@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tg-meloman-bot"
+version = "0.1.0"
+description = ""
+authors = ["Arina <example@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.15.0"
+loguru = "^0.7.3"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.36"
+aiosqlite = "^0.20.0"
+black = "^24.10.0"
+yandex-music = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
